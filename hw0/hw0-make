@@ -1,0 +1,2 @@
+hw0-pi-est: hw0-pi-est.c
+	gcc -Wall -g -std=c11 -o hw0-pi-est hw0-pi-est.c
