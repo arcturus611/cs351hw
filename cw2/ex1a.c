@@ -26,6 +26,7 @@ void verify_param_passing_for_double(double x, double* px){
 	return;
 }
 
+//really not sure if this is working - getting a warning as of now 
 void verify_param_passing_for_parrints(int arr[], int (*parr)[]){
 	if(&arr == parr){
 		printf("array of ints: pass-by-reference\n");
