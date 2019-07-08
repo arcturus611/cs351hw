@@ -7,8 +7,8 @@
 void reverse_array(int32_t[], int32_t);
 
 int main(int argc, char* argv[]){
-	int numbers[5] = {1, 2, 3, 4, 5};
-	reverse_array(numbers, 5);
+	int numbers[6] = {1, 2, 3, 4, 5, 6};
+	reverse_array(numbers, 6);
 	return EXIT_SUCCESS; 
 }
 
